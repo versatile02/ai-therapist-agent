@@ -105,7 +105,7 @@ interface ISonicToken {
 - Privacy-preserving analytics  
 
 ## Crisis Detection System
-\`\`\`ts
+```
 const detectStressSignals = (message: string): StressPrompt | null => {
   const stressKeywords = [
     "stress",
@@ -119,37 +119,37 @@ const detectStressSignals = (message: string): StressPrompt | null => {
   ];
   // Advanced pattern matching and intervention logic
 };
-\`\`\`
+```
 
 ---
 
 # 🚀 Getting Started
 
 ## Clone & Install
-\`\`\`bash
+```
 git clone https://github.com/blocklinklabs/synapsewell.git
 cd synapsewell
 npm install
-\`\`\`
+```
 
 ## Configure Environment
-\`\`\`bash
+```
 cp .env.example .env
 # Add required API keys:
 # - SONIC_PRIVATE_KEY
 # - GEMINI_API_KEY
 # - ZEREPY_API_KEY
-\`\`\`
+```
 
 ## Deploy Smart Contracts
-\`\`\`bash
+```
 npx hardhat run scripts/deploy.ts --network sonic_blaze_testnet
-\`\`\`
+```
 
 ## Start Development Server
-\`\`\`bash
+```
 npm run dev
-\`\`\`
+```
 
 ---
 
