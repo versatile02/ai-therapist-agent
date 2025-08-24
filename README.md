@@ -99,7 +99,7 @@ interface ISonicToken {
 - Automated security monitoring  
 
 ## Data Protection
-- HIPAA-compliant encryption  
+- HIPAA compliant encryption  
 - Secure key management  
 - Regular security audits  
 - Privacy-preserving analytics  
