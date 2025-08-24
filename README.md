@@ -48,13 +48,13 @@
 
 ## 🌈 Interactive Therapeutic Features
 
-### Mindfulness Activities
+## Mindfulness Activities
 - Breathing exercises with visual guidance  
 - Digital Zen garden for stress relief  
 - Virtual forest walks  
 - Ocean wave meditation  
 
-### Smart Environment Integration
+## Smart Environment Integration
 - IoT device synchronization  
 - Ambient lighting control  
 - Therapeutic sound management  
@@ -62,7 +62,7 @@
 
 ## 💫 Sonic Token Integration
 
-```typescript
+```
 interface ISonicToken {
     function mint(address to, uint256 amount) external;
     function stake(uint256 amount) external;
@@ -70,14 +70,14 @@ interface ISonicToken {
 }
 ```
 
-### Tokenized Reward System
+## Tokenized Reward System
 - Achievement-based token distribution
 - Engagement staking mechanisms
 - Community participation rewards
 - Progress milestone bonuses
 
   ##🛠 Technical Implementation
-  ###AI Agent Architecture
+  ##AI Agent Architecture
 
   ```
   class TherapyAgentConfig {
@@ -125,14 +125,14 @@ const detectStressSignals = (message: string): StressPrompt | null => {
 
 # 🚀 Getting Started
 
-### Clone & Install
+## Clone & Install
 \`\`\`bash
 git clone https://github.com/blocklinklabs/synapsewell.git
 cd synapsewell
 npm install
 \`\`\`
 
-### Configure Environment
+## Configure Environment
 \`\`\`bash
 cp .env.example .env
 # Add required API keys:
@@ -141,19 +141,19 @@ cp .env.example .env
 # - ZEREPY_API_KEY
 \`\`\`
 
-### Deploy Smart Contracts
+## Deploy Smart Contracts
 \`\`\`bash
 npx hardhat run scripts/deploy.ts --network sonic_blaze_testnet
 \`\`\`
 
-### Start Development Server
+## Start Development Server
 \`\`\`bash
 npm run dev
 \`\`\`
 
 ---
 
-# 📈 Performance Metrics
+## 📈 Performance Metrics
 - Response Time: <100ms  
 - Emotion Detection Accuracy: 94.5%  
 - Crisis Prediction Precision: 91.3%  
@@ -162,7 +162,7 @@ npm run dev
 
 ---
 
-# 🔒 Security & Compliance
+## 🔒 Security & Compliance
 - End-to-end encryption  
 - HIPAA compliance  
 - GDPR compliance  
@@ -176,7 +176,7 @@ npm run dev
 
 ---
 
-# 🗺 Development Roadmap
+## 🗺 Development Roadmap
 
 ### Phase 1: Enhanced User Experience
 - Enhanced NFT visualization system  
@@ -188,7 +188,7 @@ npm run dev
 - Expanded IoT integration  
 - Enhanced privacy features  
 
-### Phase 2: Platform Expansion
+## Phase 2: Platform Expansion
 - Group therapy features  
 - DAO governance implementation  
 - Cross-chain NFT bridging  
@@ -200,13 +200,13 @@ npm run dev
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 We welcome contributions! See **CONTRIBUTING.md** for guidelines.  
 
-# 📄 License
+## 📄 License
 MIT License - see **LICENSE**  
 
-# 🌟 Acknowledgments
+## 🌟 Acknowledgments
 - Tabish Iqbal
 - Md Raihan
 - Arhamuddin  
