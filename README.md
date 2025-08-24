@@ -1,17 +1,11 @@
-# Aura3.0: AI-Powered Mental Health Support on Sonic 🧠⛓️
-
-[![Sonic Token](https://img.shields.io/badge/Sonic-Integration-purple.svg)]()
-[![Zerepy](https://img.shields.io/badge/Zerepy-AI_Agent-blue.svg)]()
-[![HIPAA](https://img.shields.io/badge/HIPAA-Compliant-green.svg)]()
-[![Crisis Response](https://img.shields.io/badge/Crisis-Detection-red.svg)]()
-[![Smart Contract](https://img.shields.io/badge/Sonic_Blaze-Testnet-orange.svg)]()
+# SynapseWell: AI-Powered Mental Health Support on Sonic 🧠⛓️
 
 > An autonomous AI therapist powered by advanced NLP and emotional intelligence, providing personalized mental health support while ensuring privacy through blockchain technology. Built on Sonic Blaze Testnet with Zerepy agents.
 
 ## 📸 Project Showcase
 
 <div align="center">
-  <img src="https://i.imghippo.com/files/uath6507iKU.png" alt="Aura Dashboard" width="45%" />
+  <img src="https://i.imghippo.com/files/uath6507iKU.png" alt="SynapseWell Dashboard" width="45%" />
   <img src="https://i.imghippo.com/files/CBbx8767gPg.png" alt="Therapy Session" width="45%" />
 </div>
 
@@ -54,35 +48,35 @@
   }
   ```
 
-- **HIPAA-Compliant Data Management**
+## HIPAA-Compliant Data Management
 
-  - End-to-end encryption for all communications
-  - Zero-knowledge proofs for privacy
-  - Decentralized storage of session records
-  - Granular consent management system
+- End-to-end encryption for all communications  
+- Zero-knowledge proofs for privacy  
+- Decentralized storage of session records  
+- Granular consent management system  
 
-- **NFT-Based Progress Tracking**
-  - ERC-721 therapy session certificates
-  - Achievement-based milestone NFTs
-  - Privacy-preserving metadata structure
-  - Verifiable progress records
+## NFT-Based Progress Tracking
 
-### 🌈 Interactive Therapeutic Features
+- ERC-721 therapy session certificates  
+- Achievement-based milestone NFTs  
+- Privacy-preserving metadata structure  
+- Verifiable progress records  
 
-- **Mindfulness Activities**
+## 🌈 Interactive Therapeutic Features
 
-  - Breathing exercises with visual guidance
-  - Digital Zen garden for stress relief
-  - Virtual forest walks
-  - Ocean wave meditation
+### Mindfulness Activities
+- Breathing exercises with visual guidance  
+- Digital Zen garden for stress relief  
+- Virtual forest walks  
+- Ocean wave meditation  
 
-- **Smart Environment Integration**
-  - IoT device synchronization
-  - Ambient lighting control
-  - Therapeutic sound management
-  - Environmental adaptation to mood
+### Smart Environment Integration
+- IoT device synchronization  
+- Ambient lighting control  
+- Therapeutic sound management  
+- Environmental adaptation to mood  
 
-### 💫 Sonic Token Integration
+## 💫 Sonic Token Integration
 
 ```typescript
 interface ISonicToken {
@@ -92,46 +86,42 @@ interface ISonicToken {
 }
 ```
 
-- **Tokenized Reward System**
-  - Achievement-based token distribution
-  - Engagement staking mechanisms
-  - Community participation rewards
-  - Progress milestone bonuses
+### Tokenized Reward System
+- Achievement-based token distribution
+- Engagement staking mechanisms
+- Community participation rewards
+- Progress milestone bonuses
 
-## 🛠 Technical Implementation
+  ##🛠 Technical Implementation
+  ###AI Agent Architecture
 
-### AI Agent Architecture
-
-```typescript
-class TherapyAgentConfig {
+  ```
+  class TherapyAgentConfig {
   name: string;
   personality: string;
   specialties: string[];
   language_model: string = "gemini-1.5-flash";
   temperature: float = 0.7;
   therapy_approach: string;
-  crisis_protocol: Object;
-}
-```
+  crisis_protocol: Object;}
+  ```
 
-### Security Measures
+  # Security Measures
 
-- **Blockchain Security**
+## Blockchain Security
+- Smart contract auditing  
+- Multi-signature therapy session validation  
+- Encrypted on-chain storage  
+- Automated security monitoring  
 
-  - Smart contract auditing
-  - Multi-signature therapy session validation
-  - Encrypted on-chain storage
-  - Automated security monitoring
+## Data Protection
+- HIPAA-compliant encryption  
+- Secure key management  
+- Regular security audits  
+- Privacy-preserving analytics  
 
-- **Data Protection**
-  - HIPAA-compliant encryption
-  - Secure key management
-  - Regular security audits
-  - Privacy-preserving analytics
-
-### Crisis Detection System
-
-```typescript
+## Crisis Detection System
+\`\`\`ts
 const detectStressSignals = (message: string): StressPrompt | null => {
   const stressKeywords = [
     "stress",
@@ -145,101 +135,95 @@ const detectStressSignals = (message: string): StressPrompt | null => {
   ];
   // Advanced pattern matching and intervention logic
 };
-```
-
-## 🚀 Getting Started
-
-1. **Clone & Install**
-
-   ```bash
-   git clone https://github.com/blocklinklabs/aura3.0.git
-   cd aura3.0
-   npm install
-   ```
-
-2. **Configure Environment**
-
-   ```bash
-   cp .env.example .env
-   # Add required API keys:
-   # - SONIC_PRIVATE_KEY
-   # - GEMINI_API_KEY
-   # - ZEREPY_API_KEY
-   ```
-
-3. **Deploy Smart Contracts**
-
-   ```bash
-   npx hardhat run scripts/deploy.ts --network sonic_blaze_testnet
-   ```
-
-4. **Start Development Server**
-   ```bash
-   npm run dev
-   ```
-
-## 📈 Performance Metrics
-
-- Response Time: <100ms
-- Emotion Detection Accuracy: 94.5%
-- Crisis Prediction Precision: 91.3%
-- Transaction Throughput: 2000 TPS
-- NFT Minting Time: ~15s
-
-## 🔒 Security & Compliance
-
-- End-to-end encryption
-- HIPAA compliance
-- GDPR compliance
-- Regular security audits
-- Penetration testing
-- Privacy-preserving architecture
-- Zero-knowledge proof implementation
-- Secure key management
-- Multi-factor authentication
-- Role-based access control
-
-## 🗺 Development Roadmap
-
-### Phase 1: Enhanced User Experience
-
-- Enhanced NFT visualization system
-- Advanced reward mechanisms
-- Mobile app release
-- NFT marketplace integration
-- Multi-language support
-- Advanced crisis intervention
-- Expanded IoT integration
-- Enhanced privacy features
-
-### Phase 2: Platform Expansion
-
-- Group therapy features
-- DAO governance implementation
-- Cross-chain NFT bridging
-- Enhanced achievement system
-- AI model improvements
-- Community features
-- Advanced analytics
-- Expanded integrations
-
-## 🤝 Contributing
-
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE)
-
-## 🌟 Acknowledgments
-
-- Sonic
-- Zerepy AI Framework
-- Mental Health Professionals
-- Open Source Community
+\`\`\`
 
 ---
 
-<p align="center">
-Built with ❤️ on Sonic Blaze Testnet and Zerepy for better mental health
-</p>
+# 🚀 Getting Started
+
+### Clone & Install
+\`\`\`bash
+git clone https://github.com/blocklinklabs/synapsewell.git
+cd synapsewell
+npm install
+\`\`\`
+
+### Configure Environment
+\`\`\`bash
+cp .env.example .env
+# Add required API keys:
+# - SONIC_PRIVATE_KEY
+# - GEMINI_API_KEY
+# - ZEREPY_API_KEY
+\`\`\`
+
+### Deploy Smart Contracts
+\`\`\`bash
+npx hardhat run scripts/deploy.ts --network sonic_blaze_testnet
+\`\`\`
+
+### Start Development Server
+\`\`\`bash
+npm run dev
+\`\`\`
+
+---
+
+# 📈 Performance Metrics
+- Response Time: <100ms  
+- Emotion Detection Accuracy: 94.5%  
+- Crisis Prediction Precision: 91.3%  
+- Transaction Throughput: 2000 TPS  
+- NFT Minting Time: ~15s  
+
+---
+
+# 🔒 Security & Compliance
+- End-to-end encryption  
+- HIPAA compliance  
+- GDPR compliance  
+- Regular security audits  
+- Penetration testing  
+- Privacy-preserving architecture  
+- Zero-knowledge proof implementation  
+- Secure key management  
+- Multi-factor authentication  
+- Role-based access control  
+
+---
+
+# 🗺 Development Roadmap
+
+### Phase 1: Enhanced User Experience
+- Enhanced NFT visualization system  
+- Advanced reward mechanisms  
+- Mobile app release  
+- NFT marketplace integration  
+- Multi-language support  
+- Advanced crisis intervention  
+- Expanded IoT integration  
+- Enhanced privacy features  
+
+### Phase 2: Platform Expansion
+- Group therapy features  
+- DAO governance implementation  
+- Cross-chain NFT bridging  
+- Enhanced achievement system  
+- AI model improvements  
+- Community features  
+- Advanced analytics  
+- Expanded integrations  
+
+---
+
+# 🤝 Contributing
+We welcome contributions! See **CONTRIBUTING.md** for guidelines.  
+
+# 📄 License
+MIT License - see **LICENSE**  
+
+# 🌟 Acknowledgments
+- Tabish Iqbal
+- Md Raihan
+- Arhamuddin  
+- Puja Dey
